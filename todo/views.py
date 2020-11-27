@@ -9,6 +9,7 @@ def get_todo_list(request):
     context = {
         "items": items
     }
+    print("made it here")
     return render(request, "todo/todo_list.html", context)
 
 def add_item(request):
