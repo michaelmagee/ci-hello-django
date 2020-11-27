@@ -26,7 +26,7 @@ SECRET_KEY = '&)*^od=umb8gcne#!_&^1_a=xu#u_=%h2iwyrgxo5c&i-fq*0-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [magee-django-todo-app.herokuapp.com]
+ALLOWED_HOSTS = ['magee-django-todo-app.herokuapp.com']
 
 
 # Application definition
